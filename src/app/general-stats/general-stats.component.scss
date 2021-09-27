@@ -1,0 +1,60 @@
+$colorWhite: #ffffff;
+$colorBlack: #000000;
+
+.general-stats-div {
+  background-color: $colorWhite;
+  padding: 10px 0;
+
+  p {
+    margin: 0;
+    font-size: 10px;
+    color: #808080;
+
+    span {
+      color: $colorBlack;
+    }
+  }
+
+  h5 {
+    margin: 10px 0;
+  }
+
+  .path {
+    margin-bottom: 8px;
+  }
+
+  .general-content {
+    display: grid;
+    grid-template-columns: 75% 25%;
+    gap: 20px;
+
+    .general-text {
+      display: grid;
+      grid-template-columns: 8% 92%;
+      column-gap: 10px;
+
+      img {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+
+    .general-information {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 15px;
+
+      p {
+        text-align: right;
+
+        span {
+          font: {
+            weight: bold;
+            size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
