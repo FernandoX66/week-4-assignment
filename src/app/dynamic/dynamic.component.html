@@ -1,0 +1,21 @@
+<div class="dynamic-div">
+  <h6>Dynamic</h6>
+  <hr />
+  <div class="dynamic-list">
+    <div class="dynamic" *ngFor="let dynamic of dynamicList">
+      <div>
+        <img src="{{ dynamic.userImage }}" alt="user-image" />
+      </div>
+      <div>
+        <p>
+          {{ dynamic.user }} in <a href="#">{{ dynamic.group }}</a> has
+          {{ dynamic.action }}
+          <a href="#">{{ dynamic.project }}</a>
+        </p>
+        <p>
+          <span>{{ dynamic.date }}</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>

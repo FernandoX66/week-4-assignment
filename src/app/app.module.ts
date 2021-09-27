@@ -7,6 +7,7 @@ import { NavComponent } from './nav/nav.component';
 import { GeneralStatsComponent } from './general-stats/general-stats.component';
 import { OngoingProjectsComponent } from './ongoing-projects/ongoing-projects.component';
 import { IndexComponent } from './index/index.component';
+import { DynamicComponent } from './dynamic/dynamic.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { IndexComponent } from './index/index.component';
     NavComponent,
     GeneralStatsComponent,
     OngoingProjectsComponent,
-    IndexComponent
+    IndexComponent,
+    DynamicComponent
   ],
   imports: [
     BrowserModule,
