@@ -5,12 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavComponent } from './nav/nav.component';
 import { GeneralStatsComponent } from './general-stats/general-stats.component';
+import { OngoingProjectsComponent } from './ongoing-projects/ongoing-projects.component';
+import { IndexComponent } from './index/index.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    GeneralStatsComponent
+    GeneralStatsComponent,
+    OngoingProjectsComponent,
+    IndexComponent
   ],
   imports: [
     BrowserModule,

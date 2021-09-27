@@ -1,0 +1,51 @@
+$colorWhite: #ffffff;
+$greyColor: #e6e9ec;
+$colorBlack: #000000;
+
+.index-div {
+  background-color: $colorWhite;
+  border-radius: 1px;
+  margin-top: 15px;
+
+  h6 {
+    margin: 0;
+    padding: 11px 0 11px 15px;
+  }
+
+  hr {
+    margin: 0;
+    background-color: $greyColor;
+    border: 0;
+    height: 1px;
+  }
+
+  .index-image {
+    padding: 20px 50px;
+
+    img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+
+  .index-information {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+
+    p {
+      font-size: 10px;
+      text-align: center;
+      color: #808080;
+      margin: 0;
+
+      span {
+        color: $colorBlack;
+        font: {
+          size: 15px;
+          weight: bold;
+        }
+      }
+    }
+  }
+}
