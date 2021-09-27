@@ -1,1 +1,18 @@
-<p>ongoing-projects works!</p>
+<div class="ongoing-projects-div">
+  <div class="title-section">
+    <h6>Ongoing projects</h6>
+    <a href="#">All items</a>
+  </div>
+  <div class="ongoing-projects-list">
+    <div class="project-div" *ngFor="let project of ongoingProjects">
+      <div>
+        <img src="{{ project.icon }}" alt="icon" />
+        <h6>{{ project.technology }}</h6>
+      </div>
+      <p>{{ project.description }}</p>
+      <p>
+        <span>{{ project.customer }}</span>
+      </p>
+    </div>
+  </div>
+</div>
