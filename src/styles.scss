@@ -17,8 +17,12 @@ body {
   margin: 0;
 
   .container {
-    width: 90%;
+    width: 95%;
     max-width: 1000px;
     margin: 0 auto;
+
+    @media (min-width: 768px) {
+      width: 90%;
+    }
   }
 }

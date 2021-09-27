@@ -8,6 +8,7 @@ import { GeneralStatsComponent } from './general-stats/general-stats.component';
 import { OngoingProjectsComponent } from './ongoing-projects/ongoing-projects.component';
 import { IndexComponent } from './index/index.component';
 import { DynamicComponent } from './dynamic/dynamic.component';
+import { TeamComponent } from './team/team.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { DynamicComponent } from './dynamic/dynamic.component';
     GeneralStatsComponent,
     OngoingProjectsComponent,
     IndexComponent,
-    DynamicComponent
+    DynamicComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule,

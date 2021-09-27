@@ -1,0 +1,10 @@
+<div class="team-div">
+  <h6>Team</h6>
+  <hr />
+  <div class="team-list">
+    <div *ngFor="let team of teams">
+      <img src="{{ team.logo }}" alt="logo" />
+      <p>{{ team.name }}</p>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,41 @@
+$whiteColor: #ffffff;
+$greyColor: #e6e9ec;
+
+.team-div {
+  background-color: $whiteColor;
+  border-radius: 1px;
+  margin: 15px 0;
+
+  h6 {
+    margin: 0;
+    padding: 11px 0 11px 15px;
+  }
+
+  hr {
+    margin: 0;
+    background-color: $greyColor;
+    border: 0;
+    height: 1px;
+  }
+
+  .team-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    p {
+      font-size: 10px;
+      margin: 0;
+    }
+
+    img {
+      width: 15px;
+    }
+
+    div {
+      display: grid;
+      grid-template-columns: 1fr 5fr;
+      column-gap: 8px;
+      padding: 15px;
+    }
+  }
+}

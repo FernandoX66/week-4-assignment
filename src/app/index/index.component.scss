@@ -21,10 +21,16 @@ $colorBlack: #000000;
 
   .index-image {
     padding: 20px 50px;
+    text-align: center;
 
     img {
-      width: 100%;
+      width: 50%;
       max-width: 100%;
+
+      @media (min-width: 580px) {
+        width: 100%;
+        max-width: 100%;
+      }
     }
   }
 
