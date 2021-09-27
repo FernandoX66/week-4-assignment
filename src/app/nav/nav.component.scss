@@ -1,0 +1,12 @@
+$blueColor: #05142d;
+$whiteColor: #ffffff;
+
+header {
+  background-color: $blueColor;
+  color: $whiteColor;
+
+  p {
+    margin: 0;
+    padding: 10px 0;
+  }
+}
