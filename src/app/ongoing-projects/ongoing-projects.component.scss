@@ -31,9 +31,12 @@ $greyColor: #e6e9ec;
 
   .ongoing-projects-list {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
 
     @media (min-width: 480px) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: 768px) {
       grid-template-columns: repeat(3, 1fr);
     }
 
