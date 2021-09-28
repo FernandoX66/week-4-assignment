@@ -5,7 +5,10 @@ $colorBlack: #000000;
 .index-div {
   background-color: $colorWhite;
   border-radius: 1px;
-  margin-top: 15px;
+
+  @media (min-width: 580px) {
+    margin-top: 15px;
+  }
 
   h6 {
     margin: 0;

@@ -23,21 +23,29 @@ $colorBlack: #000000;
     margin-bottom: 8px;
   }
 
+  .general-section {
+    display: grid;
+    align-items: center;
+
+    .image-section {
+      text-align: center;
+
+      img {
+        width: 100%;
+        max-width: 100px;
+      }
+    }
+
+    @media (min-width: 580px) {
+      grid-template-columns: 1fr 13fr;
+      column-gap: 10px;
+    }
+  }
+
   .general-content {
     display: grid;
     grid-template-columns: 3fr 1fr;
     gap: 20px;
-
-    .general-text {
-      display: grid;
-      grid-template-columns: 8% 92%;
-      column-gap: 10px;
-
-      img {
-        width: 100%;
-        max-width: 100%;
-      }
-    }
 
     .general-information {
       display: flex;
