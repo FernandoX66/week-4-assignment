@@ -31,7 +31,11 @@ $greyColor: #e6e9ec;
 
   .ongoing-projects-list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+
+    @media (min-width: 480px) {
+      grid-template-columns: repeat(3, 1fr);
+    }
 
     .project-div {
       padding: 20px;
