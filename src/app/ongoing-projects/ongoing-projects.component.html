@@ -1,13 +1,13 @@
 <div class="ongoing-projects-div">
   <div class="title-section">
-    <h6>Ongoing projects</h6>
+    <h3>Ongoing projects</h3>
     <a href="#">All items</a>
   </div>
   <div class="ongoing-projects-list">
     <div class="project-div" *ngFor="let project of ongoingProjects">
       <div>
         <img src="{{ project.icon }}" alt="icon" />
-        <h6>{{ project.technology }}</h6>
+        <h4>{{ project.technology }}</h4>
       </div>
       <p>{{ project.description }}</p>
       <p>

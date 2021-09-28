@@ -3,22 +3,25 @@ $greyColor: #e6e9ec;
 
 .ongoing-projects-div {
   background-color: $colorWhite;
-  margin-top: 15px;
+  margin-top: 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.089);
 
   .title-section {
     display: flex;
     justify-content: space-between;
 
-    h6 {
+    h3 {
+      font-size: 18px;
       margin: 0;
-      padding: 11px 0 11px 15px;
+      padding: 20px 0 20px 21px;
     }
 
     a {
-      font-size: 10px;
+      font-size: 15px;
       text-decoration: none;
       color: rgb(0, 183, 255);
-      margin: 11px 15px 11px 0;
+      margin: 20px 21px 20px 0;
     }
 
     a:hover {
@@ -31,7 +34,7 @@ $greyColor: #e6e9ec;
     grid-template-columns: repeat(3, 1fr);
 
     .project-div {
-      padding: 15px;
+      padding: 20px;
       border: 1px solid $greyColor;
 
       div {
@@ -41,11 +44,11 @@ $greyColor: #e6e9ec;
         margin-bottom: 10px;
 
         img {
-          width: 15px;
+          width: 25px;
           border-radius: 50%;
         }
 
-        h6 {
+        h4 {
           margin: 0;
           display: flex;
           align-items: center;
@@ -53,7 +56,7 @@ $greyColor: #e6e9ec;
       }
 
       p {
-        font-size: 10px;
+        font-size: 15px;
         color: #808080;
         margin: 0 0 6px 0;
 

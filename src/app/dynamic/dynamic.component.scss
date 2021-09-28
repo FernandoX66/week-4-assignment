@@ -3,12 +3,14 @@ $greyColor: #e6e9ec;
 
 .dynamic-div {
   background-color: $whiteColor;
-  border-radius: 1px;
-  margin: 15px 0;
+  border-radius: 2px;
+  margin: 20px 0;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.089);
 
-  h6 {
+  h3 {
+    font-size: 18px;
     margin: 0;
-    padding: 11px 0 11px 15px;
+    padding: 20px 0 20px 20px;
   }
 
   hr {
@@ -32,7 +34,7 @@ $greyColor: #e6e9ec;
       }
 
       p {
-        font-size: 10px;
+        font-size: 15px;
         margin: 0;
 
         a {

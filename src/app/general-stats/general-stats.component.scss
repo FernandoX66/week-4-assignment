@@ -1,13 +1,15 @@
 $colorWhite: #ffffff;
 $colorBlack: #000000;
+$greyColor: #e6e9ec;
 
 .general-stats-div {
   background-color: $colorWhite;
-  padding: 10px 0;
+  padding: 20px 0;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.089);
 
   p {
     margin: 0;
-    font-size: 10px;
+    font-size: 15px;
     color: #808080;
 
     span {
@@ -15,8 +17,8 @@ $colorBlack: #000000;
     }
   }
 
-  h5 {
-    margin: 10px 0;
+  h3 {
+    margin: 15px 0;
   }
 
   .path {
@@ -44,24 +46,45 @@ $colorBlack: #000000;
 
   .general-content {
     display: grid;
-    grid-template-columns: 3fr 1fr;
-    gap: 20px;
+
+    @media (min-width: 580px) {
+      grid-template-columns: 3fr 1.7fr;
+      gap: 40px;
+    }
 
     .general-information {
       display: flex;
       justify-content: space-between;
       align-items: center;
       gap: 15px;
+      margin-top: 20px;
+      padding: 0 20px;
+
+      @media (min-width: 580px) {
+        margin-top: 0;
+        padding: 0;
+      }
 
       p {
-        text-align: right;
+        text-align: center;
+
+        @media (min-width: 580px) {
+          text-align: right;
+        }
 
         span {
           font: {
             weight: bold;
-            size: 16px;
+            size: 28px;
           }
         }
+      }
+
+      hr {
+        border: none;
+        border-left: 1px solid $greyColor;
+        width: 1px;
+        height: 40px;
       }
     }
   }

@@ -4,15 +4,17 @@ $colorBlack: #000000;
 
 .index-div {
   background-color: $colorWhite;
-  border-radius: 1px;
+  border-radius: 2px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.089);
 
   @media (min-width: 580px) {
-    margin-top: 15px;
+    margin-top: 20px;
   }
 
-  h6 {
+  h3 {
+    font-size: 18px;
     margin: 0;
-    padding: 11px 0 11px 15px;
+    padding: 20px 0 20px 21px;
   }
 
   hr {
@@ -23,14 +25,14 @@ $colorBlack: #000000;
   }
 
   .index-image {
-    padding: 20px 50px;
+    padding: 30px 50px 20px 50px;
     text-align: center;
 
     img {
       width: 50%;
       max-width: 100%;
 
-      @media (min-width: 580px) {
+      @media (min-width: 830px) {
         width: 100%;
         max-width: 100%;
       }
@@ -40,10 +42,10 @@ $colorBlack: #000000;
   .index-information {
     display: flex;
     justify-content: space-evenly;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 
     p {
-      font-size: 10px;
+      font-size: 15px;
       text-align: center;
       color: #808080;
       margin: 0;
@@ -51,7 +53,7 @@ $colorBlack: #000000;
       span {
         color: $colorBlack;
         font: {
-          size: 15px;
+          size: 24px;
           weight: bold;
         }
       }
